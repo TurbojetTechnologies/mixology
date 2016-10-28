@@ -5,7 +5,9 @@
     "license": "GPL-2.0+",
     "require": {
         "composer/installers": "^1.0.21",
-        "wikimedia/composer-merge-plugin": "~1.3"
+        "wikimedia/composer-merge-plugin": "~1.3",
+        "turbojet/mixcomponents": "dev-master",
+        "turbojet/mixtheme": "dev-master"
     },
     "replace": {
         "drupal/core": "~8.2"
@@ -15,6 +17,20 @@
     "config": {
         "preferred-install": "dist",
         "autoloader-suffix": "Drupal8"
+    },
+    "repositories": {
+        "mixcomponents" : {
+            "type": "git",
+            "url": "https://github.com/TurbojetTechnologies/mixcomponents.git"
+        },
+        "mixtheme" : {
+            "type": "git",
+            "url": "https://github.com/TurbojetTechnologies/mixtheme.git"
+        },
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
     },
     "extra": {
         "_readme": [
@@ -28,6 +44,10 @@
             "recurse": false,
             "replace": false,
             "merge-extra": false
+        },
+        "installer-paths": {
+            "modules/contrib/{$name}":["type:drupal-module"],
+            "themes/contrib/{$name}":["type:drupal-theme"]
         }
     },
     "autoload": {

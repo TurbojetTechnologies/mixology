@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d101b08e5ae002d827cd42ae9a4e344",
-    "content-hash": "60f7057617c6d995bf9946d0b12f0b5d",
+    "hash": "a50e2c7ce6180ebbd7546674a8b79973",
+    "content-hash": "e8c9a48b9781ed84a2d8b21eabad2a2f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2379,6 +2379,38 @@
             "time": "2016-03-04 07:54:35"
         },
         {
+            "name": "turbojet/mixcomponents",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TurbojetTechnologies/mixcomponents.git",
+                "reference": "4ca832bdb466b04a1c864f8b7529b67d4e61469e"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Mixology components module for Drupal 8",
+            "homepage": "https://github.com/TurbojetTechnologies/mixcomponents",
+            "time": "2016-10-27 23:15:36"
+        },
+        {
+            "name": "turbojet/mixtheme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TurbojetTechnologies/mixtheme.git",
+                "reference": "df409f06c7e8889fec74968ef0c474966f2e0f82"
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Mixology base theme for Drupal 8",
+            "homepage": "https://github.com/TurbojetTechnologies/mixtheme",
+            "time": "2016-10-06 16:13:45"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.24.0",
             "source": {
@@ -4203,7 +4235,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "turbojet/mixcomponents": 20,
+        "turbojet/mixtheme": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
