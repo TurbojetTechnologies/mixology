@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a4e61c34cfa33c8c8f525f71ae30cfaf",
-    "content-hash": "5113d2af09466a3cf0d665fb7cfba707",
+    "hash": "a50e2c7ce6180ebbd7546674a8b79973",
+    "content-hash": "e8c9a48b9781ed84a2d8b21eabad2a2f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2405,26 +2405,6 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-10-21 20:59:10"
-        },
-        {
-            "name": "thoughtbot/bourbon",
-            "version": "v4.2.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thoughtbot/bourbon.git",
-                "reference": "v4.2.7"
-            },
-            "type": "library"
-        },
-        {
-            "name": "thoughtbot/neat",
-            "version": "v1.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thoughtbot/neat.git",
-                "reference": "v1.8.0"
-            },
-            "type": "library"
         },
         {
             "name": "turbojet/mixcomponents",
