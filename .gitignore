@@ -1,3 +1,4 @@
 modules/contrib
 themes/contrib
 libraries
+.DS_Store
